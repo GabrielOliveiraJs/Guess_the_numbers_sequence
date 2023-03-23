@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1 class="title">Acerte a Sequência Numérica</h1>
+    <div class="attempts-container">
+        <p>Tentativas Restantes: <span class="attempts"></span></p>
+    </div>
+    <form class="formInput">
+        <div class="input-container">
+            <input type="text" class="input" maxlength="1" required>
+            <input type="text" class="input" maxlength="1" required>
+            <input type="text" class="input" maxlength="1" required>
+            <input type="text" class="input" maxlength="1" required>
+            <input type="text" class="input" maxlength="1" required>
+            <input type="text" class="input" maxlength="1" required>
+            <input type="text" class="input" maxlength="1" required>
+            <input type="text" class="input" maxlength="1" required>
+            <input type="text" class="input" maxlength="1" required>
+            <input type="text" class="input" maxlength="1" required>
+        </div>
+        <div class="end-game-container is-hidden">
+            <p></p>
+        </div>
+        <div class="btns-container">
+            <input class="btn send-btn" type="submit" value="Enviar Resposta">
+            <button class="btn try-again-btn is-hidden">Tentar Novamente</button>
+        </div>
+    </form>
+    <div class="correct-answer is-hidden">
+        <p>Sequência Numérica Correta:</p>
+    </div>
+    <div class="latest-attempts-container">
+        <p>Tentativas Anteriores:</p>
+    </div>
+</body>
+
+</html>
